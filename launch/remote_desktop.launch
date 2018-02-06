@@ -8,7 +8,7 @@
   <include file="$(find raspimouse_navigation_2)/launch/run_move_base.launch"/>
 
   <!-- Run Hector SLAM -->
-  <include file="$(find hector_geotiff)/launch/geotiff_mapping.launch"/>
-  <include file="$(find raspimouse_hector_slam)/launch/run_hector_mapper.launch"/>
+  <include file="$(find hector_geotiff)/launch/geotiff_mapper.launch"/>
+  <include file="$(find raspimouse_hector_slam)/launch/run_hector_mapping.launch"/>
 
 </launch>

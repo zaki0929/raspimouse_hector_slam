@@ -29,7 +29,7 @@
     <param name="advertise_map_service" value="true"/>
     
     <param name="scan_subscriber_queue_size" value="4"/>
-    <param name="scan_topic" value="$(arg scan_topic)"/>
+    <param name="scan_topic" value="scan"/>
     
     <!-- Debug parameters -->
     <!--
