@@ -2,7 +2,7 @@
   <master auto="start"/>
 
   <!-- Run Rviz -->
-  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find raspimouse_navigation_2)/config/rviz_config.rviz"/>
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find raspimouse_hector_slam)/config/rviz_config.rviz"/>
 
   <!-- Run Move Base -->
   <include file="$(find raspimouse_navigation_2)/launch/run_move_base.launch"/>
